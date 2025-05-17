@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slot Machine Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Slot Machine Game</h1>
+        <div class="balance">Balance: <span id="balance">100</span> chips</div>
+        
+        <div class="slot-machine low-stakes">
+            <h2>Low Stakes</h2>
+            <p>Min. balance: 10 chips</p>
+            <p>Bet: 5 chips</p>
+            <div class="slots">
+                <div class="slot" id="low1">🍒</div>
+                <div class="slot" id="low2">🍒</div>
+                <div class="slot" id="low3">🍒</div>
+            </div>
+            <button id="spin-low">Spin</button>
+        </div>
+        
+        <div class="slot-machine medium-stakes">
+            <h2>Medium Stakes</h2>
+            <p>Min. balance: 50 chips</p>
+            <p>Bet: 25 chips</p>
+            <div class="slots">
+                <div class="slot" id="medium1">🍒</div>
+                <div class="slot" id="medium2">🍒</div>
+                <div class="slot" id="medium3">🍒</div>
+            </div>
+            <button id="spin-medium">Spin</button>
+        </div>
+        
+        <div class="slot-machine high-stakes">
+            <h2>High Stakes</h2>
+            <p>Min. balance: 200 chips</p>
+            <p>Bet: 100 chips</p>
+            <div class="slots">
+                <div class="slot" id="high1">🍒</div>
+                <div class="slot" id="high2">🍒</div>
+                <div class="slot" id="high3">🍒</div>
+            </div>
+            <button id="spin-high">Spin</button>
+        </div>
+        
+        <div id="message"></div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
